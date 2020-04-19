@@ -64,6 +64,10 @@ document.querySelector('#cleanup').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/cleanup.png) center no-repeat';
   window.body
 });
+document.querySelector('#screentime').addEventListener('click', function() {
+  document.querySelector('.image').style.background = 'url(assets/screentime.png) center no-repeat';
+  window.body
+});
 document.querySelector('#timeout').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/timeout.png) center no-repeat';
   window.body
