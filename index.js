@@ -52,3 +52,7 @@ document.customForm.addEventListener('submit', function(e) {
   timer(mins * 60);
   this.reset();
 });
+document.querySelector('#timeout').addEventListener('click', function() {
+  document.querySelector('.image').style.background = 'url(assets/timeout.png) center no-repeat';
+  window.body
+});
