@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #ffffff url(assets/2581372.svg) center right no-repeat;
+  
+}
+.header {
+  font-size: 10rem;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: 2%;
+  color: #3a97d4;
+  border-bottom: solid 14px #fa6990;
+  width: 35%;
+}
+#hand {
+  transform: rotate(50deg);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+.image {
+  position: fixed;
+  left: 40%;
+  top: 20%;
+  background: url(assets/children.png) center no-repeat;
+  background-size: 90%;
+  height: 512px;
+  width: 512px;
+}
+.display__time-left {
+  position: fixed;
+  left: 4%;
+  top: -3%;
+  height: 412px;
+  width: 412px;
+  font-size: 30rem;
+  align-self: flex-start;
+  color: #3a97d4;
+}
+
+.timer {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Reenie Beanie' ;
+}
+
+.timer__controls {
+  display: flex;
+}
+
+.timer__controls > * {
+  flex: 1;
+}
+
+.timer__controls form {
+  display: flex;
+}
+
+.timer__controls input {
+  border-bottom: 3px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  font-family: 'Reenie Beanie' ;
+  font-size: 3rem;
+}
+
+.timer__button {
+  width: 30%;
+  cursor: pointer;
+  font-size: 4rem;
+  font-family: 'Reenie Beanie' ;
+  border-top: none;
+  border-left: 6px outset rgba(0,0,0,0.1);
+  border-right: 6px inset rgba(0,0,0,0.2);
+  border-bottom: 6px inset rgba(0,0,0,0.3);
+  padding: 1rem;
+  flex: 1;
+}
+#washhands {
+  background: #63d5ef;
+}
+#brushteeth {
+  background: #97d3a0;
+}
+#cleanup {
+  background: #fa6990;
+}
+#timeout {
+  background: #f7eb7d;
+}
+#screentime {
+  background: #f89b8c;
+}
+
+.timer__button:hover{
+  color: #ffffff;
+}
+.timer__button:focus {
+  border-left: 1px outset rgba(0,0,0,0.1);
+  border-right: 1px inset rgba(0,0,0,0.2);
+  border-bottom: 1px inset rgba(0,0,0,0.3);
+  outline: none;
+  color: #ffffff;
+}
+.display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20%;
+  color: black;
+}
+
+/* .display__end-time {
+  font-size: 4rem;
+  color: white;
+} */
