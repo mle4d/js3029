@@ -45,17 +45,17 @@ document.customForm.addEventListener('submit', function(e) {
 });
 document.querySelector('#washhands').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/hand-wash.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '90%';
+  document.querySelector('.image').style.backgroundSize = '80%';
   window.body
 });
 document.querySelector('#brushteeth').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/toothbrush.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '90%';
+  document.querySelector('.image').style.backgroundSize = '80%';
   window.body
 });
 document.querySelector('#cleanup').addEventListener('click', function() {
-  document.querySelector('.image').style.background = 'url(assets/cleanup.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '90%';
+  document.querySelector('.image').style.background = 'url(assets/cleanup.png) left no-repeat';
+  document.querySelector('.image').style.backgroundSize = '80%';
   window.body
 });
 document.querySelector('#screentime').addEventListener('click', function() {
@@ -64,12 +64,12 @@ document.querySelector('#screentime').addEventListener('click', function() {
   window.body
 });
 document.querySelector('#timeout').addEventListener('click', function() {
-  document.querySelector('.image').style.background = 'url(assets/timeout.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '90%';
+  document.querySelector('.image').style.background = 'url(assets/timeout.png) left no-repeat';
+  document.querySelector('.image').style.backgroundSize = '85%';
   window.body
 });
 document.querySelector('#customtime').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/children.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '90%';
+  document.querySelector('.image').style.backgroundSize = '80%';
   window.body
 });
