@@ -69,7 +69,7 @@ document.querySelector('#timeout').addEventListener('click', function() {
   window.body
 });
 document.querySelector('#customtime').addEventListener('click', function() {
-  document.querySelector('.image').style.background = 'url(assets/children.png) center no-repeat';
-  document.querySelector('.image').style.backgroundSize = '80%';
+  document.querySelector('.image').style.background = 'url(assets/clock.svg) center no-repeat';
+  document.querySelector('.image').style.backgroundSize = '90%';
   window.body
 });
