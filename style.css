@@ -4,17 +4,6 @@ html {
   background: #ffffff url(assets/2581372.svg) center right no-repeat;
   overflow: hidden;
 }
-.header {
-  align-self: flex-start;
-  color: #3a97d4;
-  border-bottom: dashed 14px #fa6990;
-  width: 38%;
-  font-size: 8vmax;
-  margin-left: 3%;
-}
-#hand {
-  transform: rotate(50deg);
-}
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -25,22 +14,49 @@ body {
   overscroll-behavior: none;
   max-height: 100vh;
 }
-.image {
+.display {
   position: fixed;
-  left: 40%;
-  top: 20%;
+  left: 3%;
+  top: 10%;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: visible;
+}
+.headertime {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+.header {
+  color: #3a97d4;
+  border-bottom: dashed 14px #fa6990;
+  height: 20%;
+  font-size: 8vmax;
+  font-family: 'Reenie Beanie' ;
+}
+
+
+.image {
   background: url(assets/children.png) center no-repeat;
   background-size: 100%;
-  height: 55%;
-  width: 30%;
+  height: 100%;
+  width: 50%;
 }
 .display__time-left {
- 
-  height: 412px;
-  width: 412px;
-  font-size: 20vmax;
+  
+  font-family: 'Reenie Beanie' ;
+  height: 10%;
+  
+  font-size: 30vmin;
   align-self: center;
   color: #3a97d4;
+  line-height: 0px;
 }
 
 .timer {
@@ -52,10 +68,6 @@ body {
 
 .timer__controls {
   display: flex;
-}
-
-.timer__controls > * {
-  flex: 1;
 }
 
 .timer__controls form {
@@ -96,7 +108,7 @@ body {
   background: #f89b8c;
 }
 
-.timer__button:hover{
+.timer__button:hover {
   color: #ffffff;
 }
 .timer__button:focus {
@@ -106,11 +118,4 @@ body {
   outline: none;
   color: #ffffff;
 }
-.display {
-  width: 40%;
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
+
