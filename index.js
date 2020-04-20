@@ -1,6 +1,7 @@
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const buttons = document.querySelectorAll('[data-time]');
+const audio = document.querySelector('#audio');
 
 function timer(seconds) {
   clearInterval(countdown);
@@ -13,6 +14,7 @@ function timer(seconds) {
   countdown = setInterval(() => {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
     if(secondsLeft < 0) {
+      audio.play()
       clearInterval(countdown);
       return;
     }
