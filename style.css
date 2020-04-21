@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 html {
   box-sizing: border-box;
-  background: #ffffff url(assets/2488967.svg) center right no-repeat;
+  background: #ffffff url(assets/717815.svg) center right no-repeat;
+  background-size: 38%;
   overflow: hidden;
 }
 *, *:before, *:after {
