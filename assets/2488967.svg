@@ -23,8 +23,7 @@
   }
 }
 #topsand {
-<!-- animation: red 10s ease-in infinite; -->
-background: linear-gradient(0deg, rgba(174,64,187,1) 25%, rgba(247,239,141,1) 50%, rgba(152,206,216,1) 75%, rgba(247,239,141,1) 100%);
+animation: red 10s ease-in infinite;
 }
 
 </style>
