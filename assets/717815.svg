@@ -22,49 +22,291 @@
       </linearGradient>
 	<linearGradient id="Gradient0" x1="0" x2="0" y1="0" y2="1">
         <stop offset="0%" stop-color="#f6ea7c"/>
-				<stop offset="20%" stop-color="#f6ea7c"/>
-        <stop offset="40%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#f6ea7c"/>
+				<stop offset="10%" stop-color="#f6ea7c"/>
+				<stop offset="15%" stop-color="#f6ea7c"/>
+        <stop offset="20%" stop-color="#f6ea7c"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#def6fa"/>
 				<stop offset="60%" stop-color="#def6fa"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
         <stop offset="80%" stop-color="#def6fa"/>
-				<stop offset="100%" stop-color="#def6fa"/>
+				<stop offset="85%" stop-color="#def6fa"/>
+				<stop offset="90%" stop-color="#def6fa"/>
+				<stop offset="95%" stop-color="#def6fa"/>
+        <stop offset="100%" stop-color="#def6fa"/>
       </linearGradient>
 	<linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
-       	<stop offset="0%" stop-color="#def6fa"/>
-				<stop offset="20%" stop-color="#f6ea7c"/>
-        <stop offset="40%" stop-color="#f6ea7c"/>
-				<stop offset="60%" stop-color="#def6fa"/>
-        <stop offset="80%" stop-color="#def6fa"/>
-				<stop offset="100%" stop-color="#def6fa"/>
-      </linearGradient>
-<linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
         <stop offset="0%" stop-color="#def6fa"/>
-				<stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#f6ea7c"/>
+				<stop offset="10%" stop-color="#f6ea7c"/>
+				<stop offset="15%" stop-color="#f6ea7c"/>
+        <stop offset="20%" stop-color="#f6ea7c"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
         <stop offset="40%" stop-color="#f6ea7c"/>
-				<stop offset="60%" stop-color="#def6fa"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
         <stop offset="80%" stop-color="#def6fa"/>
-				<stop offset="100%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#def6fa"/>
+				<stop offset="90%" stop-color="#def6fa"/>
+				<stop offset="95%" stop-color="#def6fa"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
       </linearGradient>
-<linearGradient id="Gradient3" x1="0" x2="0" y1="0" y2="1">
+<linearGradient id="Gradient2" x1=".9" x2=".9" y1="0" y2="1">
         <stop offset="0%" stop-color="#def6fa"/>
-				<stop offset="20%" stop-color="#def6fa"/>
-        <stop offset="40%" stop-color="#def6fa"/>
-				<stop offset="60%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#f6ea7c"/>
+				<stop offset="15%" stop-color="#f6ea7c"/>
+        <stop offset="20%" stop-color="#f6ea7c"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="85%" stop-color="#def6fa"/>
+				<stop offset="90%" stop-color="#def6fa"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+      </linearGradient>
+<linearGradient id="Gradient3" x1=".9" x2=".9" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#f6ea7c"/>
+        <stop offset="20%" stop-color="#f6ea7c"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="85%" stop-color="#def6fa"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient4" x1=".9" x2=".9" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#f6ea7c"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient5" x1=".5" x2=".5" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#f6ea7c"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#def6fa"/>
         <stop offset="80%" stop-color="#f6ea7c"/>
-				<stop offset="100%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient6" x1=".9" x2=".9" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#def6fa"/>
+				<stop offset="30%" stop-color="#f6ea7c"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#def6fa"/>
+				<stop offset="75%" stop-color="#f6ea7c"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient7" x1=".9" x2=".9" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#def6fa"/>
+				<stop offset="30%" stop-color="#def6fa"/>
+				<stop offset="35%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+			<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#def6fa"/>
+				<stop offset="70%" stop-color="#f6ea7c"/>
+				<stop offset="75%" stop-color="#f6ea7c"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient8" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#def6fa"/>
+				<stop offset="30%" stop-color="#def6fa"/>
+				<stop offset="35%" stop-color="#def6fa"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="45%" stop-color="#f6ea7c"/>
+				<stop offset="50%" stop-color="#f6ea7c"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#f6ea7c"/>
+				<stop offset="70%" stop-color="#f6ea7c"/>
+				<stop offset="75%" stop-color="#f6ea7c"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient9" x1=".9" x2=".9" y1="0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#def6fa"/>
+				<stop offset="30%" stop-color="#def6fa"/>
+				<stop offset="35%" stop-color="#def6fa"/>
+        <stop offset="40%" stop-color="#def6fa"/>
+				<stop offset="45%" stop-color="#def6fa"/>
+				<stop offset="50%" stop-color="#def6fa"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#f6ea7c"/>
+				<stop offset="70%" stop-color="#f6ea7c"/>
+				<stop offset="75%" stop-color="#f6ea7c"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+</linearGradient>
+<linearGradient id="Gradient10" x1=".9" x2=".9" y1=".0" y2="1">
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="5%" stop-color="#def6fa"/>
+				<stop offset="10%" stop-color="#def6fa"/>
+				<stop offset="15%" stop-color="#def6fa"/>
+        <stop offset="20%" stop-color="#def6fa"/>
+				<stop offset="25%" stop-color="#def6fa"/>
+				<stop offset="30%" stop-color="#def6fa"/>
+				<stop offset="35%" stop-color="#def6fa"/>
+        <stop offset="40%" stop-color="#def6fa"/>
+				<stop offset="45%" stop-color="#def6fa"/>
+				<stop offset="50%" stop-color="#def6fa"/>
+				<stop offset="55%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#f6ea7c"/>
+				<stop offset="65%" stop-color="#f6ea7c"/>
+				<stop offset="70%" stop-color="#f6ea7c"/>
+				<stop offset="75%" stop-color="#f6ea7c"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="85%" stop-color="#f6ea7c"/>
+				<stop offset="90%" stop-color="#f6ea7c"/>
+				<stop offset="95%" stop-color="#f6ea7c"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
 </linearGradient>
 	<style>
-	@keyframes sandtop {
+	@keyframes sand {
   0% {
     fill: url(#Gradient0);
   }
-  50% {
+  10% {
   fill: url(#Gradient1);
   }
-   75% {
+   20% {
   fill: url(#Gradient2);
   }
-    100% {
+    30% {
   fill: url(#Gradient3);
+  }
+	  40% {
+  fill: url(#Gradient4);
+  }
+		50% {
+  fill: url(#Gradient5);
+  }
+	  60% {
+    fill: url(#Gradient6);
+  }
+  70% {
+  fill: url(#Gradient7);
+  }
+   80% {
+  fill: url(#Gradient8);
+  }
+    90% {
+  fill: url(#Gradient9);
+  }
+	  100% {
+  fill: url(#Gradient10);
   }
 }
 	@keyframes flip {
@@ -106,11 +348,11 @@
       fill: url(#Gradientglass);
       }
 #sand {
-      animation: sandtop 10s ease infinite;
+      animation: sand 5s ease infinite;
       }
 
 svg {
-animation: flip 10s ease infinite;
+animation: flip 5s ease infinite;
 }
 	</style>
 </svg>
