@@ -15,4 +15,77 @@
 	c0,7.701,3.479,14.835,9.549,19.573l68.939,53.854c0.248,0.195,0.449,0.43,0.694,0.628v96.21c-0.243,0.198-0.443,0.433-0.691,0.625
 	l-68.945,53.848c-6.067,4.738-9.546,11.872-9.546,19.573v49.555h177.095v-49.555c0-7.701-3.479-14.835-9.549-19.573l-68.948-53.854
 	c-0.245-0.192-0.444-0.424-0.684-0.619v-96.216C243.755,195.208,243.954,194.973,244.2,194.781z"/>
+	<linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#63d5ef"/>
+        <stop offset="50%" stop-color="#f6ea7c" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+      </linearGradient>
+<linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#63d5ef"/>
+        <stop offset="50%" stop-color="#63d5ef" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#f6ea7c"/>
+      </linearGradient>
+<linearGradient id="Gradient3" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#63d5ef"/>
+        <stop offset="50%" stop-color="#63d5ef" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#63d5ef"/>
+</linearGradient>
+	<style>
+	@keyframes sandtop {
+  0% {
+    fill: #f6ea7c;
+  }
+  50% {
+  fill: url(#Gradient1);
+  }
+   75% {
+  fill: url(#Gradient2);
+  }
+    100% {
+  fill: url(#Gradient3);
+  }
+}
+	@keyframes flip {
+  0% {
+    transform: scale(.9) rotate(0deg);
+  }
+	10% {
+    transform: rotate(0deg);
+  }
+	20% {
+    transform: rotate(0deg);
+  }
+	30% {
+    transform: rotate(0deg);
+  }
+	40% {
+    transform: rotate(0deg);
+  }
+	50% {
+    transform: rotate(0deg);
+  }
+	60% {
+    transform: rotate(0deg);
+  }
+	70% {
+    transform: rotate(0deg);
+  }
+	80% {
+    transform: rotate(0deg);
+  }
+	90% {
+    transform: scale(.9) rotate(0deg);
+  }
+	100% {
+    transform: scale(.8) rotate(180deg);
+  }
+}
+
+#sand {
+      animation: sandtop 30s ease-in infinite;
+      }
+svg {
+animation: flip 30s ease infinite;
+}
+	</style>
 </svg>
