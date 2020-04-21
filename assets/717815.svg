@@ -1,7 +1,7 @@
 
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 468.293 468.293" style="enable-background:new 0 0 468.293 468.293;" xml:space="preserve">
-<path id="glass" style="fill:#63d5ef;" d="M267.263,224.306l68.943-53.851c15.116-11.805,23.951-29.918,23.951-49.098V34.339H108.136v87.018
+<path id="glass" style="fill:url(#Gradientglass)" d="M267.263,224.306l68.943-53.851c15.116-11.805,23.951-29.918,23.951-49.098V34.339H108.136v87.018
 	c0,19.18,8.835,37.293,23.951,49.098l68.943,53.851c6.401,5,6.401,14.683,0,19.683l-68.943,53.848
 	c-15.116,11.808-23.951,29.918-23.951,49.098v87.021h252.021v-87.021c0-19.18-8.835-37.29-23.951-49.098l-68.943-53.848
 	C260.862,238.988,260.862,229.306,267.263,224.306z"/>
@@ -15,25 +15,49 @@
 	c0,7.701,3.479,14.835,9.549,19.573l68.939,53.854c0.248,0.195,0.449,0.43,0.694,0.628v96.21c-0.243,0.198-0.443,0.433-0.691,0.625
 	l-68.945,53.848c-6.067,4.738-9.546,11.872-9.546,19.573v49.555h177.095v-49.555c0-7.701-3.479-14.835-9.549-19.573l-68.948-53.854
 	c-0.245-0.192-0.444-0.424-0.684-0.619v-96.216C243.755,195.208,243.954,194.973,244.2,194.781z"/>
-	<linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+		<linearGradient id="Gradientglass" x1="0" x2=".9" y1=".9" y2=".4">
         <stop offset="0%" stop-color="#63d5ef"/>
-        <stop offset="50%" stop-color="#f6ea7c" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#f6ea7c"/>
+				
+				<stop offset="50%" stop-color="#def6fa"/>
+       
+				<stop offset="100%" stop-color="#63d5ef"/>
+      </linearGradient>
+	<linearGradient id="Gradient0" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#f6ea7c"/>
+				<stop offset="20%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#def6fa"/>
+				<stop offset="60%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="100%" stop-color="#def6fa"/>
+      </linearGradient>
+	<linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+       	<stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="20%" stop-color="#f6ea7c"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="100%" stop-color="#def6fa"/>
       </linearGradient>
 <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-        <stop offset="0%" stop-color="#63d5ef"/>
-        <stop offset="50%" stop-color="#63d5ef" stop-opacity="0"/>
-        <stop offset="100%" stop-color="#f6ea7c"/>
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="20%" stop-color="#def6fa"/>
+        <stop offset="40%" stop-color="#f6ea7c"/>
+				<stop offset="60%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#def6fa"/>
+				<stop offset="100%" stop-color="#f6ea7c"/>
       </linearGradient>
 <linearGradient id="Gradient3" x1="0" x2="0" y1="0" y2="1">
-        <stop offset="0%" stop-color="#63d5ef"/>
-        <stop offset="50%" stop-color="#63d5ef" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#63d5ef"/>
+        <stop offset="0%" stop-color="#def6fa"/>
+				<stop offset="20%" stop-color="#def6fa"/>
+        <stop offset="40%" stop-color="#def6fa"/>
+				<stop offset="60%" stop-color="#def6fa"/>
+        <stop offset="80%" stop-color="#f6ea7c"/>
+				<stop offset="100%" stop-color="#f6ea7c"/>
 </linearGradient>
 	<style>
 	@keyframes sandtop {
   0% {
-    fill: #f6ea7c;
+    fill: url(#Gradient0);
   }
   50% {
   fill: url(#Gradient1);
@@ -80,12 +104,15 @@
     transform: scale(.8) rotate(180deg);
   }
 }
-
-#sand {
-      animation: sandtop 30s ease-in infinite;
+#glass {
+      fill: url(#Gradientglass);
       }
+#sand {
+      animation: sandtop 5s ease infinite;
+      }
+
 svg {
-animation: flip 30s ease infinite;
+<!-- animation: flip 30s ease infinite; -->
 }
 	</style>
 </svg>
