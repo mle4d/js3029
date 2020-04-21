@@ -49,10 +49,8 @@ body {
   width: 50%;
 }
 .display__time-left {
-  
   font-family: 'Reenie Beanie' ;
   height: 10%;
-  
   font-size: 30vmin;
   align-self: center;
   color: #3a97d4;
