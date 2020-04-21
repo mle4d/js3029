@@ -17,9 +17,7 @@
 	c-0.245-0.192-0.444-0.424-0.684-0.619v-96.216C243.755,195.208,243.954,194.973,244.2,194.781z"/>
 		<linearGradient id="Gradientglass" x1="0" x2=".9" y1=".9" y2=".4">
         <stop offset="0%" stop-color="#63d5ef"/>
-				
 				<stop offset="50%" stop-color="#def6fa"/>
-       
 				<stop offset="100%" stop-color="#63d5ef"/>
       </linearGradient>
 	<linearGradient id="Gradient0" x1="0" x2="0" y1="0" y2="1">
@@ -71,7 +69,7 @@
 }
 	@keyframes flip {
   0% {
-    transform: scale(.9) rotate(0deg);
+    transform: scale(.9) rotate(180deg);
   }
 	10% {
     transform: rotate(0deg);
@@ -101,18 +99,18 @@
     transform: scale(.9) rotate(0deg);
   }
 	100% {
-    transform: scale(.8) rotate(180deg);
+    transform: scale(.8) rotate(0deg);
   }
 }
 #glass {
       fill: url(#Gradientglass);
       }
 #sand {
-      animation: sandtop 5s ease infinite;
+      animation: sandtop 10s ease infinite;
       }
 
 svg {
-<!-- animation: flip 30s ease infinite; -->
+animation: flip 10s ease infinite;
 }
 	</style>
 </svg>
