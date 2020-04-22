@@ -122,9 +122,6 @@ body {
     background: #ffffff url(assets/timer.svg) bottom right no-repeat;
     background-size: 45%;
   }
-  body {
-    max-height: 90vh;
-  }
   .display {
     position: fixed;
     left: 0%;
@@ -136,6 +133,7 @@ body {
     width: 100%;
   }
   .timer {
+    margin-top: 10%;
     width: 55vw;
   }
   .timer__controls input {
