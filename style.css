@@ -117,4 +117,27 @@ body {
   outline: none;
   color: #ffffff;
 }
-
+@media screen and (max-width: 800px) and (orientation: portrait) {
+  html {
+    background: #ffffff url(assets/timer.svg) bottom right no-repeat;
+    background-size: 45%;
+  }
+  .display {
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .headertime {
+    width: 100%;
+  }
+  .timer {
+    width: 55vw;
+  }
+  .timer__controls input {
+    width: 20vw;
+    font-size: 3vmin;
+  }
+  
+}
