@@ -133,7 +133,7 @@ body {
     width: 100%;
   }
   .header {
-    border-bottom: none;
+    display: none;
   }
   .timer {
     margin-top: 20%;
