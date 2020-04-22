@@ -1,7 +1,8 @@
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const buttons = document.querySelectorAll('[data-time]');
-const audio = document.querySelector('#audio');
+const audio = new Audio ('assets/song4.mp3');
+// const alarms = new Array ('assets/bell.mp3', 'assets/song1.mp3', 'assets/song3.mp3', 'assets/song4.mp3') 
 
 function timer(seconds) {
   clearInterval(countdown);
@@ -42,6 +43,10 @@ document.customForm.addEventListener('submit', function(e) {
   const mins = this.minutes.value;
   timer(mins * 60);
   this.reset();
+});
+document.querySelector('body').addEventListener('click', function() {
+  audio.pause()
+  window.body
 });
 document.querySelector('#washhands').addEventListener('click', function() {
   document.querySelector('.image').style.background = 'url(assets/hand-wash.png) center no-repeat';
