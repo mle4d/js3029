@@ -280,7 +280,7 @@
 </linearGradient>
 	<style>
 	@keyframes sand {
-  1% {
+  0% {
     fill: url(#Gradient0);
   }
   10% {
@@ -353,12 +353,12 @@
       fill: url(#Gradientglass);
       }
 #sand {
-      animation: sand 4s ease;
+      animation: sand 4s linear 4s 5;
 			fill: url(#Gradientsand);
       }
 
 svg {
-animation: flip 6s ease;
+animation: flip 4s linear 4s 5;
 }
 	</style>
 </svg>
