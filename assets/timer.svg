@@ -359,6 +359,7 @@
 
 svg {
 animation: flip 10s linear 3s infinite;
+-webkit-animimation: flip 10s linear 3s;
 }
 	</style>
 </svg>
