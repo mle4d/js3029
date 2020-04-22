@@ -4,6 +4,7 @@ html {
   background: #ffffff url(assets/timer.svg) center right no-repeat;
   background-size: 38%;
   overflow: hidden;
+  
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,7 +14,9 @@ body {
   margin: 0;
   text-align: center;
   overscroll-behavior: none;
-  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  /* position: fixed; */
 }
 .display {
   position: fixed;
@@ -41,7 +44,6 @@ body {
   font-size: 8vmax;
   font-family: 'Reenie Beanie' ;
 }
-
 
 .image {
   background: url(assets/children.png) center no-repeat;
