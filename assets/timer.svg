@@ -353,12 +353,12 @@
       fill: url(#Gradientglass);
       }
 #sand {
-      animation: sand 4s linear 4s 5;
+      animation: sand 4s linear 3s 3;
 			fill: url(#Gradientsand);
       }
 
 svg {
-animation: flip 4s linear 4s 5;
+animation: flip 4s linear 3s 3;
 }
 	</style>
 </svg>
