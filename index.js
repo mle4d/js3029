@@ -1,12 +1,12 @@
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const buttons = document.querySelectorAll('[data-time]');
-const audio = new Audio ('assets/song4.mp3');
-// const alarms = new Array ('assets/bell.mp3', 'assets/song1.mp3', 'assets/song3.mp3', 'assets/song4.mp3') 
+const audio = new Audio ('assets/alarmsong.mp3');
+
+
 
 function timer(seconds) {
   clearInterval(countdown);
-
   const now = Date.now();
   const then = now + seconds * 1000;
   displayTimeLeft(seconds);
